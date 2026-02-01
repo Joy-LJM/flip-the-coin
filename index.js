@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
 
   // Start animation
   coin.style.transition = "transform 1s ease-in-out";
-  coin.style.transform = "rotateY(180deg)";
+  coin.style.transform = "rotateY(360deg)";
 
   // Set result
   const isHeads = Math.random() > 0.5;
